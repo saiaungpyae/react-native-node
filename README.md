@@ -17,6 +17,11 @@ npm run db:migrate
 npm start
 ```
 
+## Updating exitDateTime API
+```
+curl --location --request PATCH 'localhost:3000/walkin/123/exit'
+```
+
 ## Install and run on android
 ```
 npm i -g expo-cli
