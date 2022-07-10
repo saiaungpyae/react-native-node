@@ -5,6 +5,6 @@ export default {
   version: "1.0.0",
   extra: {
     environment: "dev",
-    apiUrl: "http://localhost:3000",
+    apiUrl: "http://0.0.0.0:3000",
   },
 };

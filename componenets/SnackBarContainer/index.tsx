@@ -12,7 +12,7 @@ export default function SnackbarContainer() {
       visible={snackbar.open}
       duration={3000}
       onDismiss={() => setSnackBarState({ open: false })(dispatch)}
-      wrapperStyle={{ top: 0, zIndex: 1, maxWidth: "400px" }}
+      wrapperStyle={{ top: 0, zIndex: 1, maxWidth: 400 }}
       action={{
         label: "Close",
         onPress: () => {

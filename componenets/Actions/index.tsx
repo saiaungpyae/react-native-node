@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import { useDispatch } from "react-redux";
 import { setCameraState } from "../../store/camera";
@@ -15,10 +14,7 @@ export default function Buttons() {
       <TouchableOpacity style={styles.button} onPress={onPressWalkIn}>
         <Text style={styles.buttonText}>Walk/Drive In</Text>
       </TouchableOpacity>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => setCameraState(true)(dispatch)}
-      >
+      <TouchableOpacity style={styles.button}>
         <Text style={styles.buttonText}>Visitor</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button}>
