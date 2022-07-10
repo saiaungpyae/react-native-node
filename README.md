@@ -38,4 +38,8 @@ npm install
 npm run ios
 ```
 
+## Run on android (real device)
+Connect local backend server port using adb.
+![Image](https://i.ibb.co/GPr6LpF/Screen-Shot-2022-07-11-at-00-11-26.png)
+
 Please note camera feature wouldn't work in simulators (https://docs.expo.dev/versions/latest/sdk/camera)
