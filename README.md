@@ -37,3 +37,5 @@ cd react-native-node
 npm install
 npm run ios
 ```
+
+Please note camera feature wouldn't work in simulators (https://docs.expo.dev/versions/latest/sdk/camera)
