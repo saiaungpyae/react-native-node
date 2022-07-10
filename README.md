@@ -20,6 +20,7 @@ npm start
 ## Install and run on android
 ```
 npm i -g expo-cli
+cd react-native-node
 npm install
 npm run android
 ```
@@ -27,6 +28,7 @@ npm run android
 ## Install and run on ios
 ```
 npm i -g expo-cli
+cd react-native-node
 npm install
 npm run ios
 ```
